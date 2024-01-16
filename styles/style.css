@@ -70,6 +70,29 @@
     font-weight: 700;
 }
 
+.header-primary {
+    margin-top: 100px;
+    text-align: center;
+
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.description-primary {
+    padding-top: 24px;
+    max-width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 /* banner section styles */
 
 .heading-banner {
@@ -168,21 +191,7 @@
 
 /* Destination section style */
 
-.destination-header {
-    margin-top: 100px;
-    text-align: center;
-}
 
-.destination-header>p {
-    padding-top: 24px;
-    max-width: 643px;
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    margin: 0 auto;
-}
 
 .destination-section {
     display: block;
@@ -222,10 +231,43 @@
 
 /* Choose us section styles */
 
+.choose-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    width: 100%;
+    gap: 24px;
+    justify-content: center;
+}
 
 
 
+.choose-us-container>div>p,i,h2{
+    max-width: 486px;
+    padding: 0 45px 32px 32px;
+}
 
+.choose-us-container>div>i{
+    padding-top: 32px;
+}
+
+.handpicked-box {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service-box {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.best-price-box{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
 
 
 
@@ -293,7 +335,8 @@
 
     }
 
-    .kashmir, .srilanka {
+    .kashmir,
+    .srilanka {
         width: 100%;
         margin: auto;
     }
