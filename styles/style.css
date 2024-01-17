@@ -26,6 +26,10 @@
     cursor: pointer;
 }
 
+.btn-primary:hover{
+    background-color:#9d3806;
+}
+
 .header-primary {
     text-align: center;
     color: #131318;
@@ -415,7 +419,7 @@ h3 {
 .get-lost-text {
     max-width: 577px;
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -517,7 +521,6 @@ h3 {
 .newsleter-image-text>p {
     color: #FFF;
     text-align: center;
-    font-family: Mulish;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -861,6 +864,95 @@ h3 {
 
     .image-box{
         width: 100%;
+    }
+
+    .discount-image-text {
+        position: relative;
+        left: 0px;
+        width: 90.44%;
+        margin: auto;
+
+
+    }
+    .discount-image-text>.time-date {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding-top: 52px;
+        left: 40px;
+    }
+    .discount-image-text2 {
+        position: relative;
+        left: 0px;
+        width: 90.44%;
+        margin: auto;
+    }
+    .get-lost-container {
+
+        display: inline-flex;
+        margin: auto;
+        width: 100%;
+    }
+    .get-lost-image>img {
+        width: 100%;
+    }
+    .get-lost-text {
+        max-width: 45%;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .newsleter-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 34px;
+        margin-top: 100px;
+    }
+    .form-container {
+        width: 50%;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        position: relative;
+        /* margin: auto; */
+    }
+    .form-container>form>input {
+        width: 95%;
+        height: 52px;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        border: none;
+        position: relative;
+        /* margin: 0 32px 16px 0; */
+        /* padding-right: 10px; */
+    
+    }
+    .newsleter-image-container {
+        background-image: url('../Images/newsleter.png');
+        background-repeat: no-repeat;
+        width: 100%;
+        border-radius: 16px;
+        position: relative;
+    
+    
+    }
+    .newsleter-image-text {
+
+        width: 224px;
+        height: 120px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        /* padding-top: 25px; */
+        position: absolute;
+        display: flex;
+        left: 280px;
+        top: 230px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
 }
