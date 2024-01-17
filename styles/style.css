@@ -78,6 +78,9 @@
     font-weight: 400;
     line-height: normal;
 }
+.manu-bar{
+    display: none;
+}
 
 .nav-txt {
 
@@ -149,6 +152,10 @@
     color: #000;
     background: #FFF;
     padding: 0 10px;
+}
+
+.banner-find .find-logo{
+    padding: 0 10px 0 0;
 }
 
 
@@ -227,7 +234,6 @@
     position: absolute;
     color: #FFF;
     text-align: center;
-    font-family: Mulish;
     font-size: 28px;
     font-style: normal;
     font-weight: 800;
@@ -373,7 +379,7 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .tour-santorini>div {
@@ -388,71 +394,77 @@ h3 {
 
 /* get lost section styles */
 
-
-.get-lost-section {
+.get-lost {
     margin-top: 100px;
 }
 
 .get-lost-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
+    display: inline-flex;
+    /* flex-wrap: wrap; */
+    gap: 35px;
 }
 
-.get-lost-list>ul>li {
-    padding-bottom: 24px;
-
-}
-
-.get-lost-container-text {
-    max-width: 45.49%;
-}
-
-.get-lost-container-text>h2 {
-    max-width: 100%;
-    color: #131318;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 60px;
-    /* 150% */
-}
-
-.get-lost-container-text>p {
-    max-width: 100%;
-    color: #5A5A5D;
-    font-family: Mulish;
+.get-lost-text {
+    max-width: 577px;
+    color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
-    padding: 24px 0px;
 }
 
-.get-lost-container-image {
-    background-image: url('../Images/getlost.png');
-    background-repeat: no-repeat;
+.get-lost-text>h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.get-lost-text>p {
+    margin: 20px 0;
+}
+
+.get-lost-list>ul>li {
+    padding-bottom: 16px;
+    color: #131318;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.get-lost-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-lost-image {
     width: 100%;
 }
 
-.get-lost-container-image>p {
-    max-width: 276px;
-    position: relative;
+.get-lost-image>span {
+    width: 276px;
+    position: absolute;
     color: #FFF;
     text-align: center;
     font-size: 24px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 36px;
-    margin: 176px 167px;
+    font-weight: 800;
+    line-height: normal;
+
 }
+
+
+
 
 /* newsleter section styles */
 
 .newsleter-container {
     display: flex;
-    gap: 24px;
+    justify-content: space-between;
+    gap: 54px;
     margin-top: 100px;
 }
 
@@ -477,18 +489,21 @@ h3 {
 }
 
 .newsleter-image-text {
-    text-align: center;
-    align-items: center;
+
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
     border-radius: 16px;
     background: #FF5400;
-    padding-top: 25px;
-
+    /* padding-top: 25px; */
     position: absolute;
+    display: flex;
+    flex-wrap: wrap;
     left: 280px;
     top: 230px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .newsleter-image-text>p {
@@ -529,7 +544,6 @@ h3 {
 
 .form-container>form>p {
     color: #5A5A5D;
-    font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -544,13 +558,71 @@ h3 {
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: none;
-    margin-bottom: 16px;
+    margin: 0 26px 16px 0;
     padding-left: 10px;
+
+}
+
+.footer-section {
+    width: 100%;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+
+    text-align: center;
+}
+
+
+.footer-container {
+    text-align: center;
+    margin: auto;
+    max-width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 100px;
+    padding-top: 110px;
+}
+
+.social-icon{
+    margin-bottom: 50px;
+}
+
+.footer-container>p {
+    padding: 30px 0;
 
 }
 
 
 
+.sindbad-logo {
+    padding: 0 15px 24px 32px;
+}
+
+.copy-rights {
+    width: 100%;
+    color: #131318;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.copy-rights{
+    padding-top: 50px;
+}
+
+.border-line {
+    width: 872px;
+    height: 2px;
+    
+    align-items: center;
+    margin: auto;
+}
 
 
 
@@ -558,10 +630,15 @@ h3 {
 
 
     .logo-container {
-        font-size: 21.534px;
+        font-size: 18.534px;
+    }
+
+    .logo-container>h2>i{
+        padding: 0 10px 20px 0;
     }
 
     .heading-banner {
+        background-repeat: no-repeat;
         padding-bottom: 10px;
         margin: 10px auto;
     }
@@ -581,6 +658,13 @@ h3 {
     .nav-btn {
         display: none;
 
+    }
+    .manu-bar{
+        display: flex;
+    }
+
+    .manu-bar>i{
+        padding: 0 0 0 10px;
     }
 
     .banner-find {
@@ -640,67 +724,56 @@ h3 {
     }
 
     .get-lost-container {
+
         flex-direction: column;
         flex-wrap: wrap;
-    }
-
-    .get-lost-container-text {
-        max-width: 335px;
         margin: auto;
     }
 
-    .get-lost-container-text>p {
-        font-size: 14px;
-        width: 335px;
+    .get-lost-image>img {
+        width: 99.4%;
     }
 
-    .get-lost-container-image {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 335px;
-    }
 
-    .get-lost-container-image>p {
-
-        margin: 70px 30px;
-        color: #FFF;
-        max-width: 276px;
-        text-align: center;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 30px;
-    }
 
     .newsleter-container {
         flex-direction: column;
         align-items: center;
+        margin-top: 24px;
     }
 
     .newsleter-image-container {
+        margin-top: 16px;
         width: 390px;
         height: 300px;
 
     }
 
-    .form-container{
+    .form-container {
         padding-left: 0px;
         padding-top: 0px;
         margin: auto;
         width: 100%;
     }
-    
+
 
     .newsleter-image-text {
-        width: 214.023px;
-        height: 79.268px;
-        left: 10px;
+        width: 264.023px;
+        height: 89.268px;
+        top: 160px;
+        left: 120px;
     }
 
-    .form-container>form>input{
+    .form-container>form>input {
         width: 88%;
     }
 
-    
+    .border-line {
+        max-width: 335px;
+        
+        align-items: center;
+        margin: auto;
+    }
+
 
 }
