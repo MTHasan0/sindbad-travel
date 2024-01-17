@@ -362,6 +362,14 @@ h3 {
     padding-top: 52px;
 }
 
+
+
+.time-date>span>i{
+    padding: 0 10px 10px 0;
+}
+
+
+
 .tour-santorini>h2 {
     color: #131318;
     font-size: 24px;
@@ -563,6 +571,12 @@ h3 {
 
 }
 
+
+
+/* Footer section styles */
+
+
+
 .footer-section {
     width: 100%;
     height: 502px;
@@ -595,8 +609,6 @@ h3 {
     padding: 30px 0;
 
 }
-
-
 
 .sindbad-logo {
     padding: 0 15px 24px 32px;
@@ -712,6 +724,19 @@ h3 {
 
     }
 
+    .discount-image-text>.time-date {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding-top: 52px;
+    }
+    .discount-image-text2>.time-date {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding-top: 52px;
+    }
+
     .discount-image-text2 {
         position: relative;
         left: 0px;
@@ -775,5 +800,67 @@ h3 {
         margin: auto;
     }
 
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .logo-container {
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        padding-top: 12px;
+        width: 100%;
+    }
+    .logo-container>h2>i{
+        padding: 0 10px 10px 0;
+    }
+
+    .heading-banner {
+        background-repeat: no-repeat;
+        padding-bottom: 10px;
+        margin: 20px auto;
+    }
+
+    .popular-tour-container {
+        display: flex;
+        gap: 33px;
+    }
+
+    .popular-tour-txt {
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        max-width: 50%;
+    }
+    .popular-tour-img>img {
+        width: 100%;
+    }
+
+    .destination-section {
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 1.5rem;
+        margin: 80px auto;
+        align-items: center;
+
+    }
+
+
+
+    .destination-img-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content;
+        align-items: center;
+        justify-content: space-around;
+        /* gap: 24px; */
+        /* margin-top: 48px; */
+    }
+
+    .image-box{
+        width: 100%;
+    }
 
 }
